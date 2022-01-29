@@ -1,0 +1,142 @@
+/* use this class on svg icons */
+.si {
+	display: inline-block;
+	height: 1.1em;
+	width: 1.1em;
+	vertical-align: middle;
+	position: relative;
+	top: -0.0625em;
+	text-align: center;
+	stroke-width: 0;
+	overflow: visible;
+}
+.fw-Custom {
+    font-weight: 500;
+}
+
+.cs-Menu-Custom ul li {
+    padding: 0px 13px;
+}
+
+.logo-Custom{
+	width: 210px;
+}
+span.carousel-control-next-icon {
+    margin-right: 30px !important;
+}
+
+@media(max-width: 700px){
+	.logo-Custom{
+		width: 190px;
+	}
+	.position-relative.py-5.custom-Csl {
+    padding-top: 1rem !important;
+	}
+}
+
+@media (prefers-reduced-motion:reduce){
+	.carousel-item {transition: transform .6s ease-in-out !important}
+}
+
+.navbar-nav .nav-item .nav-link {
+    color:#000000;
+    font-weight: 600;
+}
+
+.bg-dark { background-color: #111111 !important }
+.bg-dark-2 { background-color: #2a2a2a !important }
+.bg-danger { background-color: #e41c26 !important }
+
+.text-star { color:#f4c521 }
+.text-dark { color: #111111 !important }
+.text-danger { color: #e41c26 !important }
+
+.object-cover {	object-fit: cover }
+.object-center { object-position: center }
+
+.offcanvas-start { width:280px !important }
+
+#search-form {
+	z-index:1;
+	top:60px;
+	right:5px;
+	width:310px
+}
+
+#search-form::before {
+	content: '';
+	position: absolute;
+	top:-30px;
+	right: 13px;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-top: 14px solid transparent;
+	border-bottom: 14px solid #e41c26;
+}
+
+/* banner start */
+.banner-carousel .carousel-control-next,
+.banner-carousel .carousel-control-prev {
+	width:5% !important
+}
+button.carousel-control-prev {
+    margin: 15px;
+}
+
+.banner-carousel .carousel-control-prev-icon,
+.banner-carousel .carousel-control-next-icon {
+	border-radius: 50px;
+	padding: 24px;
+	background-color: rgb(255 255 255 / 63%);
+}
+
+@media(min-width:800px){
+	.banner-box {
+		margin-left: 180px !important;
+	}
+}
+.c-Border {
+    border-color: #e41c26 !important;
+    border-width: 6px !important;
+}
+.lh-sm.lh-Custom {
+    color: #FFCCCF;
+}
+.c-Btn {
+    border-color: #FFCCCF;
+    color: #FFCCCF;
+}
+/* banner end */
+
+/* review or testimonial start */
+.review-carousel .carousel-control-prev,
+.review-carousel .carousel-control-next {
+	top: auto;
+	bottom: -30px;
+	width: 24px;
+}
+.review-carousel .carousel-control-next {
+	left: 40px;
+}
+
+.review-carousel .carousel-control-prev-icon {
+	width: 1.5rem;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%237e7e7e'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+.review-carousel .carousel-control-next-icon {
+	width: 1.5rem;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%237e7e7e'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+/* review or testimonial end */
+
+/* why choose us start */
+.why-choose-us-carousel .carousel-indicators .active {
+	background-color: #e41c26 !important;
+}
+/* why choose us end */
+
+
+/* carousal btn custom  */
+span.carousel-control-next-icon.carousel-Custom,.customPrevNext {
+    margin: 0 !important;
+}
